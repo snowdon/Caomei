@@ -1,26 +1,27 @@
 //
-//  ThirdViewController.m
+//  FourthViewController.m
 //  Caomei
 //
-//  Created by  Chuns on 11-8-20.
+//  Created by  Chuns on 11-8-22.
 //  Copyright (c) 2011年 __MyCompanyName__. All rights reserved.
 //
 
-#import "ThirdViewController.h"
+#import "FourthViewController.h"
 
-@implementation ThirdViewController
+@implementation FourthViewController
+
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.title = NSLocalizedString(@"Third", @"Third");
+        self.title = NSLocalizedString(@"First", @"First");
         self.tabBarItem.image = [UIImage imageNamed:@"first"];
-
-        return self;
     }
     return self;
 }
+
+
 
 - (void)didReceiveMemoryWarning
 {
